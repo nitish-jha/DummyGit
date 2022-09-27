@@ -19,4 +19,5 @@ class Test:
         return fmt
     
     def sample(self):
-        print("hello_world")
+        a = "hello_world"
+        return a
