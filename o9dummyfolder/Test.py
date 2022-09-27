@@ -17,3 +17,7 @@ class Test:
             fmt = fmt + s
         fmt = "test name instance [{}] is getting you {}".format(self.name, fmt)
         return fmt
+    
+    def append(self, string_name):
+        string_name = string_name + " world"
+        return string_name
